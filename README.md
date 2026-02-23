@@ -1,8 +1,8 @@
-# 🌍 Global Fashion Retail Analytics – Forecasting & BI System 
+# 🌍 Global Fashion Retail Analytics – Forecasting & BI System
 
 ## 📌 Project Overview
 
-This project leverages the **Global Fashion Retail Analytics Dataset** (4+ million transactional records across 7 countries) to build an end-to-end analytics and forecasting system.
+This project leverages the **Global Fashion Retail Analytics Dataset** to build an end-to-end analytics and forecasting system.
 
 The objective is to:
 
@@ -17,7 +17,10 @@ This project simulates a real-world multinational retail analytics environment.
 
 ## 🗂 Dataset Description
 
-The dataset includes:
+The dataset used in this project is the **Global Fashion Retail Stores Dataset** from Kaggle:  
+🔗 https://www.kaggle.com/datasets/ricgomes/global-fashion-retail-stores-dataset
+
+It includes:
 
 - 4M+ transaction records  
 - 35 stores across 7 countries:
@@ -34,7 +37,7 @@ The dataset includes:
 - Pricing & discount data  
 - Employee/store performance information  
 
-The data introduces controlled complexity such as missing job titles and inconsistent formats to simulate real-world retail data challenges.
+This dataset introduces controlled complexity such as missing job titles and inconsistent formats to simulate real-world retail data challenges.
 
 ---
 
