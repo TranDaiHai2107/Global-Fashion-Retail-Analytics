@@ -126,7 +126,41 @@ The clustering results provide insights for targeted marketing and pricing strat
 - Power BI (if applicable)  
 
 ---
+---
 
+## 👥 Team Contributions
+
+### 🔹 Trần Đại Hải – Project Leader
+- Led the overall project development and technical direction  
+- Performed data preprocessing and feature engineering  
+- Built and optimized Machine Learning forecasting models (XGBoost, LightGBM, SARIMA, SARIMAX, N-BEATS, NHITS)  
+- Developed customer clustering models (K-Means, Hierarchical Clustering)  
+- Designed and implemented ETL pipelines using SSIS  
+- Built OLAP cube and data warehouse architecture using SSAS  
+
+---
+
+### 🔹 Mai Nguyễn Bảo Duy – Team Member
+- Co-developed Machine Learning forecasting models  
+- Co-developed customer clustering models  
+- Implemented SSIS ETL processes  
+- Developed SSAS cube structure  
+- Built interactive dashboards using Power BI  
+
+---
+
+### 🔹 Lê Nguyễn Thành Công – Team Member
+- Contributed to Machine Learning forecasting model development  
+- Assisted in model evaluation and performance comparison  
+
+---
+
+### 🔹 Trần Tuyết Như & Lê Phúc Thịnh – Documentation & Reporting
+- Developed LaTeX documentation  
+- Wrote and formatted the final analytical report  
+- Structured technical documentation and result presentation  
+
+---
 ## 🚀 Future Improvements
 
 - Deploy forecasting models via API  
