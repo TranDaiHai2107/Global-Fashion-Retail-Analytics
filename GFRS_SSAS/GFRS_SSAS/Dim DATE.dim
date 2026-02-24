@@ -1,0 +1,334 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="aeba6bf7-d6d4-426f-bd2a-98c3f149e1de" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim DATE</ID>
+  <Name>Dim DATE</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1631" scrolltop="-4964" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7006" y="13314" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_DATE" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3704" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000780e00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_DATE" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1631</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4964</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="173">
+            <Shape Id="Date ID" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date ID" />
+                <Attribute Id="Day Of Week" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Date Of Purchase" Expanded="false">
+              <Attributes>
+                <Attribute Id="Date Of Purchase" />
+              </Attributes>
+              <Position x="241" y="20" />
+            </Shape>
+            <Shape Id="Month Of Purchase" Expanded="false">
+              <Attributes>
+                <Attribute Id="Month Of Purchase" />
+              </Attributes>
+              <Position x="462" y="20" />
+            </Shape>
+            <Shape Id="Quarter Of Purchase" Expanded="false">
+              <Attributes>
+                <Attribute Id="Quarter Of Purchase" />
+              </Attributes>
+              <Position x="683" y="20" />
+            </Shape>
+            <Shape Id="Year Of Purchase" Expanded="false">
+              <Attributes>
+                <Attribute Id="Year Of Purchase" />
+              </Attributes>
+              <Position x="905" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="617f720f-b3c0-4529-9859-5be25730589d">
+    <DataSourceViewID>GFRS DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="29bc8a2e-057c-447d-ab0a-e1149a413d7d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="effeca10-74c8-4aca-842d-a745d179d273">
+      <ID>Date ID</ID>
+      <Name>Date ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ceace4b9-9a0d-4efb-b747-492e79cf3d1d">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94481b64-2f23-46a9-9c6e-499bb5f4a446">
+            <TableID>dbo_Dim_DATE</TableID>
+            <ColumnID>DateID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="322e2584-a3f3-4beb-9dc9-0af22ec3451a">
+          <AttributeID>Date Of Purchase</AttributeID>
+          <Name>Date Of Purchase</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="95e9f3ce-7bba-4d97-8f6e-40f6309f7d9f">
+          <AttributeID>Day Of Week</AttributeID>
+          <Name>Day Of Week</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8c3b5a86-2057-42de-99bf-5212de9a30ef">
+      <ID>Date Of Purchase</ID>
+      <Name>Date Of Purchase</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4570621a-79cc-4ffd-8cd1-aad0876c1e50">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af8bdbee-458e-4e5a-96a7-a7e0e23deb93">
+            <TableID>dbo_Dim_DATE</TableID>
+            <ColumnID>DateOfPurchase</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="4aeb20e4-77e0-46d3-94e8-9a851d91be7a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f01f3864-d359-4921-bed5-774373fffd79">
+            <TableID>dbo_Dim_DATE</TableID>
+            <ColumnID>DateID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0b70b6f8-6747-4d18-a4a6-65ad59ad6345">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a63a1618-5c46-4629-8616-ce5281cc536c">
+          <TableID>dbo_Dim_DATE</TableID>
+          <ColumnID>DateOfPurchase</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1d6fd30f-677c-496e-bdf4-8121eaeaf46d">
+          <AttributeID>Month Of Purchase</AttributeID>
+          <Name>Month Of Purchase</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b84033b8-7ac1-45ef-95c9-dbe70e1e59a9">
+      <ID>Month Of Purchase</ID>
+      <Name>Month Of Purchase</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="660da424-a764-4f9d-ad36-5e20e40d0566">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd4c89cc-f78b-4e7a-a053-f79035680b79">
+            <TableID>dbo_Dim_DATE</TableID>
+            <ColumnID>MonthOfPurchase</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="586dbb61-f4f3-42cb-bd73-67442a786227">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f9a77c6e-7479-4a63-9f6e-9a1084369158">
+            <TableID>dbo_Dim_DATE</TableID>
+            <ColumnID>YearOfPurchase</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="b2f3a2f3-e2e5-4ac7-ae1c-a5abf9ec4cc0">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="66aa35e3-bc4b-4282-b2d3-502e8c4847cf">
+          <TableID>dbo_Dim_DATE</TableID>
+          <ColumnID>MonthOfPurchase</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ae716b5a-6f66-42cd-9234-cb633a4dc762">
+          <AttributeID>Quarter Of Purchase</AttributeID>
+          <Name>Quarter Of Purchase</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a2a89668-5e55-49b4-afa9-9ec130838ca1">
+      <ID>Year Of Purchase</ID>
+      <Name>Year Of Purchase</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f5f4d6a-56df-4a82-9da2-3e095f1b835f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c5d262f-57c6-43af-82b0-7a18c3b04dea">
+            <TableID>dbo_Dim_DATE</TableID>
+            <ColumnID>YearOfPurchase</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="480b4ad4-5ce8-4bb2-afec-89c084a88ef0">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d7200b20-63f4-4ad2-8a6f-8cf98f4c3491">
+          <TableID>dbo_Dim_DATE</TableID>
+          <ColumnID>YearOfPurchase</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8734cc1f-3d5f-4401-8c71-09733c68fc6d">
+      <ID>Quarter Of Purchase</ID>
+      <Name>Quarter Of Purchase</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c1bc8343-c634-46c0-be8f-232b3df43eb2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4bb23d28-0fac-4428-96b2-4997aff9be2d">
+            <TableID>dbo_Dim_DATE</TableID>
+            <ColumnID>QuarterOfPurchase</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="fd391339-6154-44cd-a447-01ae50ead276">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="69463a16-72ff-41c7-b3da-14409c0b2a04">
+            <TableID>dbo_Dim_DATE</TableID>
+            <ColumnID>YearOfPurchase</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="31590678-7e74-4953-9a0e-55afeba465e2">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d39c01c3-0007-4c6c-9359-c8b9dc065f58">
+          <TableID>dbo_Dim_DATE</TableID>
+          <ColumnID>QuarterOfPurchase</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3cb0a145-95f5-4f48-86da-eb1271fd14c9">
+          <AttributeID>Year Of Purchase</AttributeID>
+          <Name>Year Of Purchase</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e9460c01-13fb-4f94-b4bd-fde265dfdf78">
+      <ID>Day Of Week</ID>
+      <Name>Day Of Week</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="541491e5-6e86-4858-8115-e2778c9a5ed4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="46e3bef4-5fff-477d-85f7-272ec1ad8c15">
+            <TableID>dbo_Dim_DATE</TableID>
+            <ColumnID>DayOfWeek</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="cbd26219-0c76-449d-81d3-e81f3620d37c">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7aa98163-b976-451f-bad5-10101ae3e0f3">
+          <TableID>dbo_Dim_DATE</TableID>
+          <ColumnID>DayOfWeek</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="94aab02b-2008-423b-a1b7-8cd6172ded61">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="9e2c39a2-1b0d-4fde-afeb-2f6078dd206d">
+          <ID>Year Of Purchase</ID>
+          <Name>Year Of Purchase</Name>
+          <SourceAttributeID>Year Of Purchase</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c0a76b41-db6d-4beb-ac56-fc13109cf25e">
+          <ID>Quarter Of Purchase</ID>
+          <Name>Quarter Of Purchase</Name>
+          <SourceAttributeID>Quarter Of Purchase</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="83072ea5-27b8-4e06-af65-c9d1dd1a40c9">
+          <ID>Month Of Purchase</ID>
+          <Name>Month Of Purchase</Name>
+          <SourceAttributeID>Month Of Purchase</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e1b185d0-14fe-4abb-984a-7330887b1ae0">
+          <ID>Date Of Purchase</ID>
+          <Name>Date Of Purchase</Name>
+          <SourceAttributeID>Date Of Purchase</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ae006d8b-8e86-4b59-bc25-4c5cf511b426">
+          <ID>Date ID</ID>
+          <Name>Date ID</Name>
+          <SourceAttributeID>Date ID</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

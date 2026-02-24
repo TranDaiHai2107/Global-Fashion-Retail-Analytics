@@ -1,0 +1,189 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>GFRS DW</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DUY\MSSQLSERVER2;Integrated Security=SSPI;Initial Catalog=GFRS_DW</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Dim CATEGORIES</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim COLORS</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim LOCATION</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim CUSTOMER</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim DATE</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim SUBCATEGORIES</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim STORES</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim EMPLOYEES</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim PAYMENTMETHOD</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim SIZES</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim TRANSACTIONTYPE</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim DISCOUNTS</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim PRODUCTS</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Fact TRANSACTIONS</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>GFRS DW</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dim CATEGORIES</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim CATEGORIES</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim COLORS</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim COLORS</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim CUSTOMER</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim CUSTOMER</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim DATE</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim DATE</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim DISCOUNTS</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim DISCOUNTS</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim EMPLOYEES</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim EMPLOYEES</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim PAYMENTMETHOD</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim PAYMENTMETHOD</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim PRODUCTS</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim PRODUCTS</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim SIZES</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim SIZES</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim LOCATION</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim LOCATION</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim STORES</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim STORES</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim TRANSACTIONTYPE</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim TRANSACTIONTYPE</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>DISCOUNTS BRIDGE</ID>
+            <Partitions>
+              <Partition>
+                <ID>DISCOUNTS BRIDGE</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Fact TRANSACTIONS</ID>
+            <Partitions>
+              <Partition>
+                <ID>Fact TRANSACTIONS</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim SUBCATEGORIES</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim SUBCATEGORIES</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

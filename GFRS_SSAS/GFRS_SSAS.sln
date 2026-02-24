@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "GFRS_SSAS", "GFRS_SSAS\GFRS_SSAS.dwproj", "{7CCC4996-4076-0124-427D-D6CBA9222649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CCC4996-4076-0124-427D-D6CBA9222649}.Development|Default.ActiveCfg = Development
+		{7CCC4996-4076-0124-427D-D6CBA9222649}.Development|Default.Build.0 = Development
+		{7CCC4996-4076-0124-427D-D6CBA9222649}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F48A46C-50CD-47A1-B7E0-CB9F645B2FE6}
+	EndGlobalSection
+EndGlobal

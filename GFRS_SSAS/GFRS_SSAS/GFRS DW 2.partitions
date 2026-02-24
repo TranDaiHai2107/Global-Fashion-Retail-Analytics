@@ -1,0 +1,305 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7ef08f93-0587-4167-a338-3bf34c8d0fbe" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GFRS DW 2</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Dim CATEGORIES</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="65a04738-7e9e-4b65-92f3-c5025bbc381f">
+          <ID>Dim CATEGORIES</ID>
+          <Name>Dim CATEGORIES</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7add14eb-7f78-4d6e-adaa-5377a8fe607e">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_CATEGORIES</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim COLORS</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="66ca5871-0978-4efb-bea6-19939e551e65">
+          <ID>Dim COLORS</ID>
+          <Name>Dim COLORS</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="594f55cc-fe7a-48f0-b5a6-5cc348fa00a3">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_COLORS</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim CUSTOMER</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4fcd4ac1-f2b7-47ec-9b54-a08372160408">
+          <ID>Dim CUSTOMER</ID>
+          <Name>Dim CUSTOMER</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="10eac2b8-280c-46f7-b46f-22b6d0d8e638">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_CUSTOMER</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim DATE</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c8521377-4ab4-4bb6-8870-61007c6905c9">
+          <ID>Dim DATE</ID>
+          <Name>Dim DATE</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3516f798-ba5f-47c5-afd8-7245e84ce4aa">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_DATE</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim DISCOUNTS</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="331653b1-b4d5-4a0e-9ca6-d0d33dade291">
+          <ID>Dim DISCOUNTS</ID>
+          <Name>Dim DISCOUNTS</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="543db921-f26a-49bd-9bc3-04d978a76e36">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_DISCOUNTS</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim EMPLOYEES</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f76d9b27-9e56-4c15-889d-b34760ecc77c">
+          <ID>Dim EMPLOYEES</ID>
+          <Name>Dim EMPLOYEES</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3a65a396-3520-4688-871a-17555799144b">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_EMPLOYEES</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim PAYMENTMETHOD</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="99c0f3b1-fae8-4236-9d5c-17b24c1a9edd">
+          <ID>Dim PAYMENTMETHOD</ID>
+          <Name>Dim PAYMENTMETHOD</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="316d06ef-828b-4d87-b4c4-0b908655764a">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_PAYMENTMETHOD</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim PRODUCTS</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5b883042-919a-4e05-aac5-3f0d0f3d3b83">
+          <ID>Dim PRODUCTS</ID>
+          <Name>Dim PRODUCTS</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fe70f210-08bb-4f84-9cd7-601672d65e5c">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_PRODUCTS</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim SIZES</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="12f1d5eb-54c8-4ae2-8f19-f86112c7d87d">
+          <ID>Dim SIZES</ID>
+          <Name>Dim SIZES</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1b514c2d-61cc-4885-8403-c700d1bf8c2e">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_SIZES</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim LOCATION</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="142c3acb-24fc-46b1-953b-e4f54e9cfe35">
+          <ID>Dim LOCATION</ID>
+          <Name>Dim LOCATION</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c13714d0-6aeb-4e6b-87bf-5d6c5a145a73">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_LOCATION</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim STORES</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a6ef80b5-ef6c-4db3-8262-f6e0b1a37156">
+          <ID>Dim STORES</ID>
+          <Name>Dim STORES</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="eeb147f6-a5bf-4717-a8c7-123e4527de0e">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_STORES</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim TRANSACTIONTYPE</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="0f7084fa-d1d6-43f5-8400-92fa87d19a0c">
+          <ID>Dim TRANSACTIONTYPE</ID>
+          <Name>Dim TRANSACTIONTYPE</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="fb8df5d2-36b9-41d8-8d11-e2ef04a7137c">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_TRANSACTIONTYPE</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>DISCOUNTS BRIDGE</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="9ae20cc6-3ff8-417f-a622-ec15f0de2259">
+          <ID>DISCOUNTS BRIDGE</ID>
+          <Name>DISCOUNTS BRIDGE</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9b04a431-7900-48d3-9d62-0dd513b2f56d">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_DISCOUNTS_BRIDGE</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact TRANSACTIONS</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="bd83efb7-a60b-4a02-988a-c092b35c04d0">
+          <ID>Fact TRANSACTIONS</ID>
+          <Name>Fact TRANSACTIONS</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="920c4d68-ccb8-4f01-8d65-647bc4073444">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Fact_TRANSACTIONS</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Dim SUBCATEGORIES</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8165dc84-a6f2-4a92-b9e7-e8c89c2e0dca">
+          <ID>Dim SUBCATEGORIES</ID>
+          <Name>Dim SUBCATEGORIES</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8029acc7-37f7-4a01-ac13-c9c907555525">
+            <DataSourceViewID>GFRS DW</DataSourceViewID>
+            <TableID>dbo_Dim_SUBCATEGORIES</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

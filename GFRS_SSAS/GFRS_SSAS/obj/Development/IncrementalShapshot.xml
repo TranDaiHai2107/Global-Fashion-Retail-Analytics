@@ -1,0 +1,152 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>GFRS_SSAS</Database>
+    <Server>DUY\MSSQLSERVER2</Server>
+    <ConnectionString>Data Source=DUY\MSSQLSERVER2;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>gZAxxUaS/aQc+aTSYVbK0J8RraU=11/14/2025 3:05:38 PM11/14/2025 3:05:38 PM</TimeStamp>
+        <ID>
+          <String>GFRS DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>ACxqmixdYBmYyJJbQ0sPfmc/oEM=11/15/2025 6:28:52 PM11/14/2025 3:05:56 PM</TimeStamp>
+        <ID>
+          <String>GFRS DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ELlFmq2IiIActF8u/LFit/2uNhQ=11/15/2025 6:29:31 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim CATEGORIES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZiqVhmx9hbxoUtYiLpVFf8SxHiM=11/15/2025 6:29:43 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim COLORS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OJyFUsX71ZjUMunuKYqoo+mEqio=11/15/2025 6:30:14 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim LOCATION</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EJ16HB1e2DE0VVvmgGd9HvMCaI0=11/15/2025 6:30:14 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim CUSTOMER</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MPIfUelqSPfAtvLfJh6z4aUGl7U=11/15/2025 6:31:29 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim DATE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qBJU7PegSLNVFDP6SJG863yj13U=11/15/2025 6:31:48 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim SUBCATEGORIES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kv/jyVu7OTtCU/Y608iP3iqrqgQ=11/15/2025 6:31:48 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim STORES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xaLtdvRtJgHfOTjeeH82jzbEYe4=11/15/2025 6:31:59 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim EMPLOYEES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QmHaC2hEXf924k3+zpOm4RLt8Eo=11/15/2025 6:32:23 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim PAYMENTMETHOD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2l7Pgkby/t3Sh3QDCC8Ou1vBG60=11/15/2025 6:32:22 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim SIZES</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>I9nVwXNHStd3qaXWVI1wqm6VCC8=11/15/2025 6:32:43 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim TRANSACTIONTYPE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>b8ckMp9jqC9ffZs8EQTPywqKAlM=11/15/2025 6:32:43 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim DISCOUNTS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>mVg3tPXv4T6SRUNpwTrjXgaYFxQ=11/15/2025 6:33:16 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Dim PRODUCTS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Zny4J1xkhh5soLNyZcwr4z7k3a8=11/15/2025 6:33:16 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>Fact TRANSACTIONS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>jLdAWdyLwnGIpP2siOaMHH4hb1c=11/15/2025 6:33:16 PM11/15/2025 6:29:10 PMpYnc/XRgtQ6TuqEhr1BMMfdX5c4=11/15/2025 6:29:10 PM11/15/2025 6:29:10 PM</TimeStamp>
+        <ID>
+          <String>GFRS DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>eviUWbazzEyvJIFkqU0SnczZ5mI=11/14/2025 3:05:21 PM11/14/2025 3:05:21 PM</TimeStamp>
+      <ID>
+        <String>GFRS_SSAS</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-11-16T06:02:15.086667Z</LastDeployed>
+</DeploymentSnapshot>
